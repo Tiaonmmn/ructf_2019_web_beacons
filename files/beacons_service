@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/beacons
+exec /sbin/setuser beacons /usr/bin/python3 /home/beacons/main.py 
